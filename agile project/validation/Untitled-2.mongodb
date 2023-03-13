@@ -1,0 +1,20 @@
+[
+  {
+  "-id" :{
+    "solid" : "64044df8f87d843d190383."
+  },
+  "username" : "joe",
+  "email" : "aaronamankwa@gmail.com",
+"password": '$2y$10$L6oQMp9jUalIYBGmcSsreWFhSH1mQADVwZXxsWkPXDY2MEiVWvae',
+  }
+  "profile" :{
+    "Name" : "AARON AMANNKWAH".4
+    "birthday" : {
+      "$date":{
+        "$numberLong" : "7958304000"
+      }
+    },
+    "bio" : "This is Kojo Amankwa"
+    "friend" : "null"
+   }
+]

@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: flex;
+    flex-direction: column;
+    
+}
+
+.hello{
+    display: flex;
+    width: 100%;   
+}
+.container .form{
+    padding-left: 10px;
+    margin-top: -30px;
+    
+}
+.container.active .login{
+    margin-left: -60%;
+    opacity: 0;
+    
+}
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 300px;
+}
+.cheackbox-content{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+label.text{
+    width: 133px;
+    font-size: 20px;
+}
+input #logCheck{
+    margin-left: -30px;
+
+}
+a.text{
+    color: #4070f4;
+    font-size: 20px;
+    text-decoration: none;
+}
+a.text:hover{
+    color: #404040;
+    text-decoration: underline;
+}
+a.text:active{
+    color: #4070f4;
+}
+a.text.signup-link{
+    color: #4070f4;
+}
+.input-field.button input{
+border: none;
+color: #fff;
+background-color: #4070f4;
+font-size: 17px;
+width: 200px;
+font-weight: 500;
+text-transform: uppercase;
+cursor: pointer;
+letter-spacing: 1px;
+border-radius: 6px;
+transition: all 0.3s ease;
+}
+.login-signup{
+    padding-top: 20px;
+}
+span.text{
+    color: #4070f4;
+    padding-right: 10px;
+    font-size: 17px
+}
+
+.form{
+position: relative;
+left: 30%;
+top: 10%;
+} 
+.container1{
+  
+    border: 2px;
+    width: 600px;
+    height: 600px;
+}
+.container2{
+   
+    border: 2px;
+    height: 50%;
+
+    width: 50%;
+
+
+}
+
+header{
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+
+.container2 img{
+    width: 100%;
+    height: 90%;
+}
